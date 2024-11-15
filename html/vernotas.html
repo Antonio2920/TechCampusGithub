@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas Escolares</title>
+    <link rel="stylesheet" href="../CSS/vernotas.css">
+</head>
+<body>
+    <header>
+        <a href="sesionusuario.html"><img src="../imagen/logo.png" alt="Logo de la escuela" class="logo"></a>
+        <h1>Colegio Dr. Ernesto Guevara <br> <span id="userNameDisplay"></span> </h1>
+        <br>
+    </header>
+
+    <main>
+        <!-- Tabla de Notas en el HTML -->
+        <div id="tablaNotasContainer" style="display: none;">
+            <table id="tablaNotas">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th colspan="3">1er Cuatrimestre</th>
+                        <th colspan="3">2do Cuatrimestre</th>
+                        <th colspan="4"></th>
+                    </tr>
+                    <tr>
+                        <th>Nombre de Materia</th>
+                        <th>1° Informe</th>
+                        <th>2° Informe</th>
+                        <th>Nota</th>
+                        <th>1° Informe</th>
+                        <th>1° Informe</th>
+                        <th>Nota</th>
+                        <th>Nota Anual</th>
+                        <th>Nota Acreditación</th>
+                        <th>Nota Recuperatorio</th>
+                        <th>Nota Definitiva</th>
+                    </tr>
+                </thead>
+                    <tbody id="notasBody"></tbody>
+            </table>
+        </div>
+    </main>
+    
+    <script src="../js/vernotas.js"></script>
+</body>
+</html>
